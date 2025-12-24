@@ -5,7 +5,7 @@ import 'remixicon/fonts/remixicon.css'
 function Nav() {
   return (
         <>
-            <div className="nav w-full h-20 items-center px-20 flex justify-between bg-amber-400">
+            <div className="nav w-full text-amber-50 h-20 items-center px-20 flex justify-between bg-amber-400">
                 <div className="logo">
                     <img className='w-30 h-30' src={logo} alt="" />
                 </div>
@@ -16,7 +16,7 @@ function Nav() {
                     <h3>roadmap</h3>
                 </div>
                 <div className="but uppercase">
-                    <h3 className='text border-2 px-4  rounded-b-2xl'><i class="ri-global-line mr-3"></i>join us</h3>
+                    <h3 className='text border-2 px-4 text-xl rounded-b-2xl'><i class="ri-global-line mr-3"></i>join us</h3>
                 </div> 
             </div>
         </>
