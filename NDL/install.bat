@@ -1,1 +1,1 @@
-npm i && npm install tailwindcss @tailwindcss/vite 
+npm i && npm install tailwindcss @tailwindcss/vite && npm install remixicon --save
