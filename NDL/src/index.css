@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}

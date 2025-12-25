@@ -15,9 +15,9 @@ const Hero = () => {
      className="w-full h-screen text-white flex flex-col justify-center"
     >
         <img className='w-5/6' src={textImage} alt="" />
-        <h2 className='absolute uppercase bottom-68 left-70 -translate-x-1/2 -translate-y-1/2 text-2xl md:text-lg lg:text-lg font-bold'>discover digital art and collect nfts</h2>
+        <h2 className='absolute uppercase bottom-68 left-30  text-2xl md:text-lg lg:text-lg '>discover digital art and collect nfts</h2>
 
-        <span className='absolute uppercase bottom-50 left-40 -translate-x-1/2 -translate-y-1/2 text-2xl md:text-lg lg:text-lg font-bold flex items-center gap-2'>gets orbits <FaArrowRightLong/></span>
+        <span className='absolute uppercase bottom-50 left-30  text-2xl md:text-lg lg:text-lg  flex items-center gap-2'>gets orbits <FaArrowRightLong/></span>
     </div>
   )
 }
