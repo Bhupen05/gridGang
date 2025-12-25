@@ -1,11 +1,10 @@
-import React from 'react'
-import logo from "../assets/image.png"
+import logo from "../assets/logo.png"
 import 'remixicon/fonts/remixicon.css'
 
 function Nav() {
   return (
         <>
-            <div className="nav w-full text-amber-50 h-20 items-center px-20 flex justify-between bg-amber-400">
+            <div className="nav w-full fixed text-amber-50 h-20 items-center px-20 flex justify-between ">
                 <div className="logo">
                     <img className='w-30 h-30' src={logo} alt="" />
                 </div>
